@@ -1,0 +1,402 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUNROSE — Indian Restaurant Shinagawa Tokyo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+<!-- =================== HEADER =================== -->
+<header class="header" id="header">
+    <a href="#home" class="logo">SUN<span>ROSE</span></a>
+ 
+    <ul class="nav" id="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menus">Menus</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#access">Access</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#reservation" class="nav-cta">Reservation</a></li>
+        <li style="list-style:none;display:flex;align-items:center;">
+       <div id="google_translate_element"></div>
+</li>
+    </ul>
+ 
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+    </button>
+</header>
+ 
+
+        <!-- ====== FLOATING ORDER BUTTON ====== -->
+        <a href="order.html" class="fab-order">
+        🛵 <span>Order Now</span>
+        </a>
+<!-- =================== HERO =================== -->
+<section id="home" class="hero">
+    <div class="hero-slider">
+        <div class="slide active" style="background-image: url('images/slide1.jpg')"></div>
+        <div class="slide" style="background-image: url('images/slide2.jpg')"></div>
+        <div class="slide" style="background-image: url('images/slide3.jpg')"></div>
+        <div class="slide" style="background-image: url('images/slide4.jpg')"></div>
+        <div class="slide" style="background-image: url('images/slide5.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+
+ 
+    <div class="hero-content">
+        <span class="hero-tag">Indian Restaurant &middot; Shinagawa Tokyo</span>
+        <h1 class="hero-title">
+            <span>SUNROSE</span>
+            <em>Where Flavor Lives</em>
+        </h1>
+        <p class="hero-subtitle">Authentic Indian cuisine crafted with traditional spices in the heart of Shinagawa</p>
+        <div class="hero-btns">
+            <a href="#reservation" class="btn-gold">Reserve a Table</a>
+            <a href="order.html" class="btn-outline">Order Now</a>
+        </div>
+    </div>
+ 
+    <div class="slider-dots" id="sliderDots">
+        <div class="dot active" data-index="0"></div>
+        <div class="dot" data-index="1"></div>
+        <div class="dot" data-index="2"></div>
+        <div class="dot" data-index="3"></div>
+        <div class="dot" data-index="4"></div>
+    </div>
+</section>
+ 
+<!-- =================== MENUS =================== -->
+<section id="menus" class="section-menus">
+    <div class="section-inner">
+        <div class="menus-header reveal">
+            <span class="section-label">Explore</span>
+            <div class="gold-line"></div>
+            <h2 class="section-title">Our <span>Menus</span></h2>
+            <p class="section-desc">We are pleased to offer delivery, reservations, and takeout services. Your satisfaction is our priority.</p>
+        </div>
+ 
+        <div class="menus-grid">
+            <a href="lunch_menu.html#lunch" class="menu-card reveal reveal-delay-1">
+                <img src="images/lunch.jpg" alt="Lunch menu">
+                <div class="menu-card-overlay"></div>
+                <div class="menu-card-body">
+                    <span class="menu-card-label">Daily 11:00–15:00</span>
+                    <div class="menu-card-title">Lunch <div class="menu-card-arrow">›</div></div>
+                </div>
+            </a>
+            <a href="dinner.html" class="menu-card reveal reveal-delay-2">
+                <img src="images/dinner.jpg" alt="Dinner menu">
+                <div class="menu-card-overlay"></div>
+                <div class="menu-card-body">
+                    <span class="menu-card-label">Daily 17:00–22:00</span>
+                    <div class="menu-card-title">Dinner <div class="menu-card-arrow">›</div></div>
+                </div>
+            </a>
+            <a href="takeout.html#takeout" class="menu-card reveal reveal-delay-3">
+                <img src="images/party.jpg" alt="Lunch menu">
+                <div class="menu-card-overlay"></div>
+                <div class="menu-card-body">
+                    <span class="menu-card-label">Groups & Events</span>
+                    <div class="menu-card-title"> Takeout <div class="menu-card-arrow">›</div></div>
+                </div>
+            </a>
+            <a href="special.html" class="menu-card reveal reveal-delay-4">
+                <img src="images/top-view-table-full-food.jpg" alt="Special menu">
+                <div class="menu-card-overlay"></div>
+                <div class="menu-card-body">
+                    <span class="menu-card-label">Course Menu </span>
+                    <div class="menu-card-title">Course <div class="menu-card-arrow">›</div></div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+ 
+<!-- =================== OFFERS =================== -->
+<section id="offers" class="section-offers">
+    <div class="section-inner">
+        <div class="reveal">
+            <span class="section-label">Promotions</span>
+            <div class="gold-line"></div>
+            <h2 class="section-title">Offers <span>&amp; Coupons</span></h2>
+        </div>
+ 
+        <div class="offers-flex">
+            <div class="offer-card reveal reveal-delay-1">
+                <span class="offer-badge">Limited Offer</span>
+                <div class="offer-amount">10% Off<br>Your Bill</div>
+                <p class="offer-desc">Enjoy authentic Indian dining with a special discount. Available for dine-in guests only. Show this coupon to your server.</p>
+                <a href="coupon.html" target="_blank" class="btn-offer">View Coupon</a>
+            </div>
+            <div class="offer-card reveal reveal-delay-2">
+            <span class="offer-badge">New Offers</span>
+            <div class="offer-amount">Deals &amp;<br>Special Sets</div>
+            <p class="offer-desc">Biryani Lunch Set, ちょい飲みコース, 二次会セット and more — explore our latest offers and curated dining plans.</p>
+            <a href="new.html" class="btn-offer">View All Offers</a>
+             </div>
+        </div>
+    </div>
+</section>
+ 
+<!-- =================== ACCESS =================== -->
+<section id="access" class="section-access">
+    <div class="section-inner">
+        <div class="reveal">
+            <span class="section-label">Find Us</span>
+            <div class="gold-line"></div>
+            <h2 class="section-title">Access <span>&amp; Info</span></h2>
+        </div>
+ 
+        <div class="access-layout">
+            <div class="access-table reveal reveal-delay-1">
+                <div class="access-row">
+                    <div class="access-label">Store</div>
+                    <div class="access-value">Indian Restaurant SUNROSE Shinagawa Seaside</div>
+                </div>
+                <div class="access-row">
+                    <div class="access-label">Address</div>
+                    <div class="access-value">1F Shinagawa Seaside East Tower<br>4-12-8 Higashi-Shinagawa, Shinagawa-ku<br>Tokyo 140-0002, Japan</div>
+                </div>
+                <div class="access-row">
+                    <div class="access-label">Phone</div>
+                    <div class="access-value">03-6718-4433</div>
+                </div>
+                <div class="access-row">
+                    <div class="access-label">Hours</div>
+                    <div class="access-value">Lunch: 11:00 – 15:00 (Daily)<br>Dinner: 17:00 – 22:00 (Daily)</div>
+                </div>
+                <div class="access-row">
+                    <div class="access-label">Holidays</div>
+                    <div class="access-value">Open all year — no holidays</div>
+                </div>
+                <div class="access-row">
+                    <div class="access-label">Seats</div>
+                    <div class="access-value">Approx. 70–80 seats &nbsp;·&nbsp; Private booking available</div>
+                </div>
+                <div class="access-row">
+                    <div class="access-label">Cards</div>
+                    <div class="access-value">VISA · MASTER · JCB · AMEX</div>
+                </div>
+            </div>
+ 
+            <div class="access-info-cards reveal reveal-delay-2">
+                <div class="info-card">
+                    <div class="info-card-icon">🚃</div>
+                    <div class="info-card-title">By Train</div>
+                    <p class="info-card-body">Rinkai Line "Shinagawa Seaside Station" — Exit B, 1–2 minute walk</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-card-icon">🚗</div>
+                    <div class="info-card-title">By Car</div>
+                    <p class="info-card-body">Paid parking available at Shinagawa Seaside East Tower</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-card-icon">🚌</div>
+                    <div class="info-card-title">By Bus</div>
+                    <p class="info-card-body">Toei Bus "Higashi-Shinagawa 4-chome" stop — a few minutes walk</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<!-- =================== RESERVATION =================== -->
+<section id="reservation" class="section-reservation">
+    <div class="section-inner">
+        <div class="reveal">
+            <span class="section-label">Book Your Table</span>
+            <div class="gold-line" style="margin: 0 auto 24px;"></div>
+            <h2 class="section-title">Reservation</h2>
+            <p class="section-desc">Choose your preferred booking method. We look forward to welcoming you.</p>
+        </div>
+ 
+        <div class="reservation-cards">
+            <a href="https://sunrosejapan.com/order-and-reservation/" class="res-card reveal reveal-delay-1">
+                <span class="res-card-icon">🌐</span>
+                <div class="res-card-title">Official Website</div>
+                <p class="res-card-sub">Direct booking — fastest confirmation</p>
+                <span class="res-card-btn">Book Now</span>
+            </a>
+            <a href="https://tabelog.com/en/tokyo/A1315/A131501/13245866/" class="res-card reveal reveal-delay-2">
+                <span class="res-card-icon">🍽️</span>
+                <div class="res-card-title">Tabelog</div>
+                <p class="res-card-sub">Japan's leading restaurant platform</p>
+                <span class="res-card-btn">Book via Tabelog</span>
+            </a>
+            <a href="https://www.gurunavi.com/" class="res-card reveal reveal-delay-3">
+                <span class="res-card-icon">📖</span>
+                <div class="res-card-title">Gurunavi</div>
+                <p class="res-card-sub">Popular dining reservation service</p>
+                <span class="res-card-btn">Book via Gurunavi</span>
+            </a>
+        </div>
+    </div>
+</section>
+ 
+<!-- =================== ABOUT =================== -->
+<section id="about" class="section-about">
+    <div class="section-inner">
+        <div class="about-layout">
+            <div class="about-text reveal">
+                <span class="section-label">Our Story</span>
+                <div class="gold-line"></div>
+                <h2 class="section-title">About <span>Us</span></h2>
+                <p>At SUNROSE, we bring the vibrant soul of Indian cuisine to the heart of Shinagawa. Every dish is crafted with authentic spices sourced directly from India, honoring generations of culinary tradition.</p>
+                <p>Our warm, inviting space seats up to 80 guests and is perfect for everything from a quiet lunch to a memorable celebration. We are open every day of the year, because great food should never wait.</p>
+                <div class="about-features">
+                    <div class="about-feature">Traditional spice blends</div>
+                    <div class="about-feature">Fresh daily ingredients</div>
+                    <div class="about-feature">Vegetarian-friendly menu</div>
+                    <div class="about-feature">Halal options available</div>
+                    <div class="about-feature">Private dining available</div>
+                    <div class="about-feature">Open 365 days a year</div>
+                </div>
+                <a href="#reservation" class="btn-gold" style="display:inline-block;">Make a Reservation</a>
+            </div>
+            <div class="about-img-wrap reveal reveal-delay-2">
+                <img src="images/interior.jpg" alt="SUNROSE restaurant interior">
+                <div class="about-img-badge">
+                    <strong>365</strong>
+                    <span>Days Open</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<!-- =================== MAP =================== -->
+<section id="contact" class="section-map">
+    <div class="map-wrap">
+        <iframe
+            src="https://www.google.com/maps?q=Shinagawa+Seaside+East+Tower,+4-12-8+Higashi-Shinagawa,+Shinagawa-ku,+Tokyo&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <a href="https://maps.google.com/maps?q=Shinagawa+Seaside+East+Tower+Tokyo" target="_blank" class="map-cta">Open in Google Maps ↗</a>
+    </div>
+</section>
+ 
+<!-- =================== FOOTER =================== -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-logo">SUN<span>ROSE</span></div>
+        <div class="footer-info">
+            <div class="footer-divider"><span>✦</span></div>
+            <p>BAL BISHNU Co., Ltd.<br>Shinagawa Seaside, Tokyo 140-0002<br>TEL 03-6718-4433</p>
+        </div>
+        <div class="footer-links-col">
+            <a href="company.html" target="_blank" class="footer-link">Company</a>
+            <a href="privacy.html" target="_blank" class="footer-link">Privacy Policy</a>
+        </div>
+    </div>
+    <p class="footer-bottom"> Indian Restaurant Shinagawa Seaside, Tokyo</p>
+    <p class="footer-bottom">© 2024 Sunrose Japan  ·  株式会社BAL BISHNU  ·  All Rights Reserved.</p>
+</footer>
+ 
+<!-- =================== LIGHTBOX =================== -->
+<div id="lightbox" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;" onclick="this.style.display='none'">
+    <img id="lightbox-img" style="max-width:90%;max-height:90%;border-radius:8px;">
+</div>
+ 
+<!-- =================== SCRIPTS =================== -->
+<script>
+(function() {
+    const header = document.getElementById('header');
+    const hamburger = document.getElementById('hamburger');
+    const nav = document.getElementById('nav');
+ 
+    window.addEventListener('scroll', () => {
+        header.classList.toggle('scrolled', window.scrollY > 40);
+    });
+ 
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        nav.classList.toggle('open');
+        document.body.style.overflow = nav.classList.contains('open') ? 'hidden' : '';
+    });
+ 
+    nav.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            nav.classList.remove('open');
+            document.body.style.overflow = '';
+        });
+    });
+ 
+    // Hero slider
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+    let current = 0;
+ 
+    function goTo(index) {
+        slides[current].classList.remove('active');
+        dots[current].classList.remove('active');
+        current = index;
+        slides[current].classList.add('active');
+        dots[current].classList.add('active');
+    }
+ 
+    dots.forEach(dot => {
+        dot.addEventListener('click', () => goTo(parseInt(dot.dataset.index)));
+    });
+ 
+    setInterval(() => goTo((current + 1) % slides.length), 2000);
+ 
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(el => {
+            if (el.isIntersecting) {
+                el.target.classList.add('visible');
+                observer.unobserve(el.target);
+            }
+        });
+    }, { threshold: 0.12 });
+ 
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+ 
+    // Trigger first check
+    header.classList.toggle('scrolled', window.scrollY > 40);
+})();
+ 
+function openImage(src) {
+    document.getElementById('lightbox').style.display = 'flex';
+    document.getElementById('lightbox-img').src = src;
+}
+</script>
+
+     <!-- ═══════════════════════════ TRANSLATE ═══════════════════════════ -->
+
+
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: 'en,ja,zh-CN,zh-TW,ko,th,ne,vi,ru,fr,it,es,de,tr,hi,id,ar',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: false
+  }, 'google_translate_element');
+
+  // Hide text after widget loads
+  setTimeout(() => {
+    const spans = document.querySelectorAll('.goog-te-menu-value span');
+    spans.forEach((span, i) => {
+      if (i !== 1) span.style.display = 'none';
+    });
+  }, 1000);
+}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+ 
+</body>
+</html>
+ 

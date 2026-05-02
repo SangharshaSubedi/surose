@@ -1,0 +1,388 @@
+<title>Lunch Menu</title>
+    <link rel="stylesheet" href="lunch_menu.css">
+     <link rel="stylesheet" href="shared.css"> 
+</head>
+<body>
+
+      <!-- ═══════════════════════════ TRANSLATE ═══════════════════════════ -->
+<a href="index.html" class="home-btn">← SUNROSE</a>
+
+<div id="google_translate_element"></div>
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'ja',
+    includedLanguages: 'en,ja,zh-CN,zh-TW,ko,th,ne,vi,ru,fr,it,es,de,tr,hi,id,ar',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: false
+  }, 'google_translate_element');
+}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section class="menu-hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-deco"></div>
+  <div class="menu-hero-content">
+    <div class="hero-eyebrow">Sunrose Japan · Shinagawa</div>
+        <h2>Authentic <em>Indian</em><br>Lunch Experience</h2>
+        <p>Handcrafted curries, fresh-baked naan and the finest spices — served daily in the heart of Shinagawa.</p>
+        <div class="hours-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Lunch Time &nbsp;·&nbsp; 11:00 — 15:00
+        </div><br>
+        <p style="font-size:13px;color:var(--gold-dim);letter-spacing:0.06em;margin-bottom:12px;">
+        Every set includes your choice of <strong style="color:var(--gold-light);">Naan or Rice</strong> &nbsp;·&nbsp; 
+        <p>Spice level adjustable</p>
+        </p>
+        <p style="font-size:13px;color:rgba(255,255,255,0.4);letter-spacing:0.04em;margin-bottom:32px;">
+        Dine-in &nbsp;·&nbsp; Takeout &nbsp;·&nbsp; Delivery available
+        </p>
+        <a href="#menu" class="menu-hero-btn">Explore the Menu</a>
+  </div>
+</section>
+ 
+<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+<div class="section-header">
+  <div class="section-eyebrow">ランチメニュー</div>
+  <h1>Lunch Menu</h1>
+  <p>Each dish is prepared fresh with authentic spices imported from India, served with your choice of accompaniments.</p>
+</div>
+ 
+<div class="gold-divider"><div class="gold-divider-gem"></div></div>
+ 
+<!-- ═══════════════════════════ MENU GRID ═══════════════════════════ -->
+<section id="menu" class="menu-container">
+ 
+  <!-- 1. Child Set -->
+  <div class="menu-item is-children">
+    <figure>
+      <img src="child-set.jpg" alt="Child Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>Child Set</h2>
+      <p class="desc">1 curry + mini naan + mini rice + salad + dessert + drink. Exclusively for children 12 and under.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥900</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Dessert & Drink
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 2. Cheese Naan Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="cheese-nan-set.jpg" alt="Cheese Naan Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>Cheese Naan Set</h2>
+      <p class="desc">2 curries + cheese naan + salad + half rice + dessert + drink.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,650</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Dessert & Drink
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 3. Special Set -->
+  <div class="menu-item is-special">
+    <figure>
+      <img src="special-set.jpg" alt="Special Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>スペシャルセット <span style="font-size:1rem;font-weight:300;">Special Set</span></h2>
+      <p class="desc">2 curries + salad + chicken tikka + naan + half rice + drink.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,390</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Drink Included
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 4. Ladies Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="ladies-set.jpg" alt="Ladies Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>レディースセット <span style="font-size:1rem;font-weight:300;">Ladies Set</span></h2>
+      <p class="desc">2 curries + salad + naan + half rice + dessert + drink. A lighter, balanced combination.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,390</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Dessert & Drink
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 5. Double Curry Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="double-curry-set.jpg" alt="Double Curry Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>ダブルカレーセット <span style="font-size:1rem;font-weight:300;">Double Curry Set</span></h2>
+      <p class="desc">Inspired by the Indian flag — turmeric-golden rice paired with two vibrant curries side by side.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,290</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Turmeric Rice
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 6. Shrimp Curry Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="seafood-set.jpg" alt="Shrimp Curry Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>エビカレー <span style="font-size:1rem;font-weight:300;">Shrimp Curry</span></h2>
+      <p class="desc">Shrimp, squid & clams with tomato, onion, bell pepper and ginger-garlic — finished with cashew and coconut for a sweet, creamy curry.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,290</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Seafood
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 7. Saag Chicken Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="sag-chicken-set.jpg" alt="Saag Chicken Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>サグチキンセット <span style="font-size:1rem;font-weight:300;">Saag Chicken</span></h2>
+      <p class="desc">Tender chicken thigh sautéed with ginger, onion, garlic and fresh spinach — a wholesome and vibrant green curry.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,290</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Chicken
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 8. Butter Chicken Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="butter-chicken.jpg" alt="Butter Chicken Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>バターチキンセット <span style="font-size:1rem;font-weight:300;">Butter Chicken</span></h2>
+      <p class="desc">A rich tomato-based curry with cashew nuts, butter and heavy cream — luxuriously smooth and deeply flavoured.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,290</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Chicken
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 9. Mutton Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="mutton-set.jpg" alt="Mutton Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>マトンセット <span style="font-size:1rem;font-weight:300;">Mutton Set</span></h2>
+      <p class="desc">Boneless lamb, finely cut and slow-sautéed with ginger and onion into a mildly spicy, flavourful curry.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,290</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Lamb
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 10. Today's Special -->
+  <div class="menu-item is-special">
+    <figure>
+      <img src="today-special-set.jpg" alt="Today's Special Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>日替わりスペシャルセット <span style="font-size:1rem;font-weight:300;">Today's Special</span></h2>
+      <p class="desc">A daily rotating selection of veg and non-veg curries — crafted by the chef with seasonal produce and house spices.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,190</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Changes Daily
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 11. Dal Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="dal-set.jpg" alt="Dal Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>ダルセット <span style="font-size:1rem;font-weight:300;">Dal Set</span></h2>
+      <p class="desc">Chana dal, rajma, lobia and urad black split — soaked and slow-simmered with onion, bell pepper and ginger-garlic paste.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,090</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Veg
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 12. Pork Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="pork-set.jpg" alt="Pork Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>ポークセット <span style="font-size:1rem;font-weight:300;">Pork Set</span></h2>
+      <p class="desc">Boneless pork lightly sautéed with an onion base, tomato and ginger-garlic paste — a bold, spicy curry.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,190</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Pork
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 13. Keema Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="keema-set.jpg" alt="Keema Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>キーマセット <span style="font-size:1rem;font-weight:300;">Keema Set</span></h2>
+      <p class="desc">Minced chicken sautéed with onion and aromatic spices into a lightly spiced, deeply satisfying curry.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,190</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Chicken
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 14. Chicken Set -->
+  <div class="menu-item">
+    <figure>
+      <img src="chicken-set.jpg" alt="Chicken Set">
+    </figure>
+    <div class="menu-item-body">
+      <h2>チキンセット <span style="font-size:1rem;font-weight:300;">Chicken Set</span></h2>
+      <p class="desc">Chicken thigh in fine cuts, sautéed with ginger, onion and garlic paste — a healthy, authentic Indian curry seasoned with house spices.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,190</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Chicken
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- 15. Indian Spice Curry -->
+  <div class="menu-item">
+    <figure>
+      <img src="indian-spicy.jpg" alt="Indian Spice Curry">
+    </figure>
+    <div class="menu-item-body">
+      <h2>インドスパイスカレー <span style="font-size:1rem;font-weight:300;">Indian Spice Curry</span></h2>
+      <p class="desc">Paprika, asparagus and cauliflower sautéed with cumin, garlic and onion — a genuine vegetable curry seasoned with traditional Indian spices.</p>
+      <div class="menu-item-footer">
+        <span class="price">¥1,290</span>
+        <span class="includes-tag">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+          Veg
+        </span>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+ 
+<!-- ═══════════════════════════ SPICE NOTE ═══════════════════════════ -->
+<div class="spice-note">
+  <div class="spice-note-inner">
+    <div class="spice-icon">🌶</div>
+    <div class="spice-text">
+      <strong>Spice Level Customisation</strong>
+      <p> 🍬 Mild 🌶️ Medium 🌶️🌶️ Spicy 🌶️🌶️🌶️ Hot🌶️🌶️🌶️🌶️ Super Hot</p>
+      <p>All curries can be adjusted from mild to extra hot. Please inform your server of your preference when ordering.</p>
+    </div>
+    <div style="font-size:13px;color:var(--text-muted);font-weight:300;max-width:260px;line-height:1.7;">
+      All sets include your choice of <strong style="color:var(--text-mid);font-weight:500;"> <div class ="food-options"> NAAN or RICE</strong> unless otherwise noted.
+    </div>
+    </div>
+  </div>
+</div>
+
+  <div class="drink-note">
+  <div class="drink-note-inner">
+    <div class="drink-icon">🍹</div>
+    <div class="drink-text">
+      <strong>Drink Options</strong>
+      <p> You can choose any one of the drinks.</p>
+    </div>
+    <div style="font-size:13px;color:var(--text-muted);font-weight:300;max-width:260px;line-height:1.7;">
+        <div class="drink-options">
+       <strong style="color:var(--text-mid);font-weight:500;">LASSI,  MANGO LASSI, APPLE JUICE, CHAI (HOT/ICE),ORANGE MANGO, ORANGE JUICE,COFFEE (HOT/ICE), OOLONG TEA </strong>
+    </div>
+  </div>
+</div>
+  </div>
+
+
+
+ 
+<!-- ═══════════════════════════ BACK TO TOP ═══════════════════════════ -->
+<button id="backToTop" title="Back to top">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+ 
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer class="footer">
+  <p>© 2024 <a href="#">Sunrose Japan</a> &nbsp;·&nbsp; 株式会社BAL BISHNU &nbsp;·&nbsp; All Rights Reserved.</p>
+</footer>
+ 
+<script>
+  const btn = document.getElementById("backToTop");
+  window.addEventListener("scroll", () => {
+    btn.style.display = window.scrollY > 300 ? "flex" : "none";
+  });
+  btn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+</script>
+</body>
+</html>
+ 

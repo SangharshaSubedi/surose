@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Takeout Menu — SUNROSE Indian Restaurant Shinagawa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="takeout.css">
+   <link rel="stylesheet" href="shared.css"> 
+</head>
+<body>
+
+      <!-- ═══════════════════════════ TRANSLATE ═══════════════════════════ -->
+<a href="index.html" class="home-btn">← SUNROSE</a>
+
+<div id="google_translate_element"></div>
+<script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'ja',
+    includedLanguages: 'en,ja,zh-CN,zh-TW,ko,th,ne,vi,ru,fr,it,es,de,tr,hi,id,ar',
+    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+    autoDisplay: false
+  }, 'google_translate_element');
+}
+</script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+
+
+
+<!-- ═══════════════════════════ HERO ═══════════════════════════ -->
+<section class="menu-hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grain"></div>
+  <div class="hero-deco"></div>
+  <div class="menu-hero-content">
+    <div class="hero-eyebrow">Sunrose Japan · Shinagawa</div>
+    <h1>Authentic <em>Indian</em><br>Takeout</h1>
+    <p>The same handcrafted curries, fresh naan and finest spices — packed with care to enjoy anywhere.</p>
+    <p style="font-size:13px;color:rgba(255,255,255,0.35);letter-spacing:0.05em;">
+      Spice level adjustable &nbsp;·&nbsp; All sets include Naan or Rice
+    </p>
+
+    <div class="hero-info-row">
+      <div class="hours-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Lunch &nbsp;·&nbsp; 11:00 — 15:00
+      </div>
+      <div class="hours-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        Dinner &nbsp;·&nbsp; 17:00 — 22:00
+      </div>
+    </div>
+
+    <!-- EXPLORE BUTTON -->
+    <div class="hero-tabs">
+      <button class="hero-tab-btn" id="exploreBtn">EXPLORE THE MENU</button>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ STICKY TAB NAV ═══════════════════════════ -->
+<nav class="tab-nav">
+  <a href="#lunch-takeout" class="tab-nav-btn">🌞 Lunch Takeout</a>
+  <a href="#curry-takeout" class="tab-nav-btn">🍛 Curry Takeout</a>
+  <a href="#dinner-takeout" class="tab-nav-btn">🌙 Dinner Takeout</a>
+</nav>
+
+
+<!-- ════════════════════════════════════════════════════════
+     TAB 1 — LUNCH TAKEOUT
+════════════════════════════════════════════════════════ -->
+<div class="tab-panel active" id="lunch-takeout">
+
+  <div class="section-header">
+    <div class="section-eyebrow">ランチ テイクアウト</div>
+    <h2>Lunch <em>Takeout</em></h2>
+    <p>Available daily 11:00 – 15:00. All sets include your choice of Naan or Rice and can be adjusted to your preferred spice level.</p>
+  </div>
+  <div class="gold-divider"><div class="gold-divider-gem"></div></div>
+
+  <div class="category-section">
+    <div class="category-title">
+      <h3>Lunch <em>Sets</em></h3>
+      <div class="category-title-line"></div>
+      <span class="category-title-count">4 Items</span>
+    </div>
+  </div>
+
+  <div class="menu-grid">
+
+    <!-- Sunrose Special Set -->
+    <div class="menu-item is-special">
+      <figure><img src="image/sunrose_special.jpg" alt="Sunrose Special Set"></figure>
+      <div class="menu-item-body">
+        <h4>サンローズスペシャル セット<br><span style="font-size:0.9rem;font-weight:300;">Sunrose Special Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Cheese Naan or Garlic Naan</li>
+          <li>Tandoori Chicken</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Keema Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Dal Curry</option>
+            <option>Saag Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Mutton Curry</option>
+            <option>Seafood Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥1,890</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Naan + Chicken
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sunrose Set -->
+    <div class="menu-item is-popular">
+      <figure><img src="image/recommended_set.jpg" alt="Sunrose Set"></figure>
+      <div class="menu-item-body">
+        <h4>サンローズセット<br><span style="font-size:0.9rem;font-weight:300;">Sunrose Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Naan or Rice</li>
+          <li>Tandoori Chicken</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Keema Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Dal Curry</option>
+            <option>Saag Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Mutton Curry</option>
+            <option>Seafood Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥1,490</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Naan or Rice
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Office Set -->
+    <div class="menu-item">
+      <figure><img src="image/special_set.jpg" alt="Office Set"></figure>
+      <div class="menu-item-body">
+        <h4>オフィスセット<br><span style="font-size:0.9rem;font-weight:300;">Office Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Naan</li>
+          <li>Rice</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Keema Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Dal Curry</option>
+            <option>Saag Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Mutton Curry</option>
+            <option>Seafood Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥1,090</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Naan + Rice
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sun Set -->
+    <div class="menu-item">
+      <figure><img src="image/today-special-set.jpg" alt="Sun Set"></figure>
+      <div class="menu-item-body">
+        <h4>サンセット<br><span style="font-size:0.9rem;font-weight:300;">Sun Set</span></h4>
+        <ul class="includes">
+          <li>Salad</li>
+          <li>Pickle (Tsukemono)</li>
+          <li>Naan or Rice</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Keema Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Dal Curry</option>
+            <option>Saag Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Mutton Curry</option>
+            <option>Seafood Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥1,090</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            Naan or Rice
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /lunch sets grid -->
+
+  <!-- Spice Note -->
+  <div class="info-banner">
+    <div class="info-banner-inner">
+      <div class="info-icon">🌶</div>
+      <div class="info-text">
+        <strong>Spice Level Customisation</strong>
+        <p>All curries adjusted to your preference. Tell us when ordering.</p>
+      </div>
+      <div class="spice-levels">
+        <span class="spice-level">🍬 Mild</span>
+        <span class="spice-level">🌶️ Medium</span>
+        <span class="spice-level">🌶️🌶️ Spicy</span>
+        <span class="spice-level">🌶️🌶️🌶️ Hot</span>
+        <span class="spice-level">🌶️🌶️🌶️🌶️ Super Hot</span>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /tab lunch-takeout -->
+
+
+<!-- ════════════════════════════════════════════════════════
+     TAB 2 — CURRY TAKEOUT
+════════════════════════════════════════════════════════ -->
+<div class="tab-panel" id="curry-takeout">
+
+  <div class="section-header">
+    <div class="section-eyebrow">カレー テイクアウト</div>
+    <h2>Curry <em>Takeout</em></h2>
+    <p>Lunch-only takeout curries — available 11:00 – 15:00. Each curry is freshly made with imported Indian spices. All come with rice.</p>
+  </div>
+  <div class="gold-divider"><div class="gold-divider-gem"></div></div>
+
+  <div class="category-section">
+    <div class="category-title">
+      <h3>Takeout <em>Curries</em></h3>
+      <div class="category-title-line"></div>
+      <span class="category-title-count">8 Items · With Rice</span>
+    </div>
+  </div>
+
+  <div class="menu-grid">
+
+    <div class="menu-item is-special">
+      <figure><img src="image/daily_curry.jpg" alt="Today's Curry"></figure>
+      <div class="menu-item-body">
+        <h4>本日のカレー<br><span style="font-size:0.9rem;font-weight:300;">Today's Curry</span></h4>
+        <p class="desc">Chef's daily special curry — changes every day with seasonal ingredients and house spices.</p>
+        <div class="menu-item-footer">
+          <div><div class="price">¥990</div><div class="price-note">With Rice</div></div>
+          <span class="includes-tag">Changes Daily</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item is-popular">
+      <figure><img src="image/butter_chicken.jpg" alt="Butter Chicken Curry"></figure>
+      <div class="menu-item-body">
+        <h4>バターチキンカレー<br><span style="font-size:0.9rem;font-weight:300;">Butter Chicken Curry</span></h4>
+        <p class="desc">Rich tomato-cashew sauce with butter and cream — India's most beloved curry, silky smooth.</p>
+        <div class="menu-item-footer">
+          <div><div class="price">¥990</div><div class="price-note">With Rice</div></div>
+          <span class="includes-tag">Chicken</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <figure><img src="image/chicken_curry.jpg" alt="Chicken Curry"></figure>
+      <div class="menu-item-body">
+        <h4>チキンカレー<br><span style="font-size:0.9rem;font-weight:300;">Chicken Curry</span></h4>
+        <p class="desc">Chicken thigh sautéed with ginger, onion and garlic — a wholesome, authentic house curry.</p>
+        <div class="menu-item-footer">
+          <div><div class="price">¥890</div><div class="price-note">With Rice</div></div>
+          <span class="includes-tag">Chicken</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <figure><img src="image/saag_chicken.jpg" alt="Saag Chicken Curry"></figure>
+      <div class="menu-item-body">
+        <h4>ほうれん草チキンカレー<br><span style="font-size:0.9rem;font-weight:300;">Saag Chicken Curry</span></h4>
+        <p class="desc">Tender chicken with vibrant spinach, ginger and aromatic Indian spices — nourishing and green.</p>
+        <div class="menu-item-footer">
+          <div><div class="price">¥990</div><div class="price-note">With Rice</div></div>
+          <span class="includes-tag">Chicken</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <figure><img src="image/keema_curry.jpg" alt="Keema Curry"></figure>
+      <div class="menu-item-body">
+        <h4>キーマカレー<br><span style="font-size:0.9rem;font-weight:300;">Keema Curry</span></h4>
+        <p class="desc">Minced chicken sautéed with onion and aromatic spices — deeply satisfying and full of flavour.</p>
+        <div class="menu-item-footer">
+          <div><div class="price">¥890</div><div class="price-note">With Rice</div></div>
+          <span class="includes-tag">Chicken</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <figure><img src="image/dal_curry.jpg" alt="Dal Curry"></figure>
+      <div class="menu-item-body">
+        <h4>ダルカレー<br><span style="font-size:0.9rem;font-weight:300;">Dal Curry</span></h4>
+        <p class="desc">Mixed lentils slow-simmered with onion, tomato and traditional Indian spices.</p>
+        <div class="menu-item-footer">
+          <div><div class="price">¥890</div><div class="price-note">With Rice</div></div>
+          <span class="includes-tag">Veg</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <figure><img src="image/pork_curry.jpg" alt="Pork Curry"></figure>
+      <div class="menu-item-body">
+        <h4>ポークカレー<br><span style="font-size:0.9rem;font-weight:300;">Pork Curry</span></h4>
+        <p class="desc">Boneless pork with onion, tomato and ginger-garlic paste — bold and deeply spiced.</p>
+        <div class="menu-item-footer">
+          <div><div class="price">¥890</div><div class="price-note">With Rice</div></div>
+          <span class="includes-tag">Pork</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <figure><img src="image/mutton_curry.jpg" alt="Mutton Curry"></figure>
+      <div class="menu-item-body">
+        <h4>マトンカレー<br><span style="font-size:0.9rem;font-weight:300;">Mutton Curry</span></h4>
+        <p class="desc">Boneless lamb slow-cooked with ginger and onion into a mildly spiced, flavourful curry.</p>
+        <div class="menu-item-footer">
+          <div><div class="price">¥990</div><div class="price-note">With Rice</div></div>
+          <span class="includes-tag">Lamb</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <figure><img src="image/seafood_curry.jpg" alt="Seafood Curry"></figure>
+      <div class="menu-item-body">
+        <h4>シーフードカレー<br><span style="font-size:0.9rem;font-weight:300;">Seafood Curry</span></h4>
+        <p class="desc">Shrimp, squid and clams in a cashew-coconut curry — sweet, creamy and aromatic.</p>
+        <div class="menu-item-footer">
+          <div><div class="price">¥990</div><div class="price-note">With Rice</div></div>
+          <span class="includes-tag">Seafood</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /curry grid -->
+
+  <div class="info-banner">
+    <div class="info-banner-inner">
+      <div class="info-icon">🍚</div>
+      <div class="info-text">
+        <strong>All Curry Takeouts Include Rice</strong>
+        <p>Lunch curry takeout is available 11:00 – 15:00 only. Spice level adjustable on request.</p>
+      </div>
+      <div class="spice-levels">
+        <span class="spice-level">🍬 Mild</span>
+        <span class="spice-level">🌶️ Medium</span>
+        <span class="spice-level">🌶️🌶️ Spicy</span>
+        <span class="spice-level">🌶️🌶️🌶️ Hot</span>
+        <span class="spice-level">🌶️🌶️🌶️🌶️ Super Hot</span>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /tab curry-takeout -->
+
+
+<!-- ════════════════════════════════════════════════════════
+     TAB 3 — DINNER TAKEOUT
+════════════════════════════════════════════════════════ -->
+<div class="tab-panel" id="dinner-takeout">
+
+  <div class="section-header">
+    <div class="section-eyebrow">ディナー テイクアウト</div>
+    <h2>Dinner <em>Takeout</em></h2>
+    <p>Available daily 17:00 – 22:00. Enjoy our full dinner experience from the comfort of your home.</p>
+  </div>
+  <div class="gold-divider"><div class="gold-divider-gem"></div></div>
+
+  <div class="category-section">
+    <div class="category-title">
+      <h3>Dinner <em>Sets</em></h3>
+      <div class="category-title-line"></div>
+      <span class="category-title-count">10 Items</span>
+    </div>
+  </div>
+
+  <div class="menu-grid">
+
+    <!-- Sun Set -->
+    <div class="menu-item">
+      <figure><img src="image/today-special-set.jpg" alt="Sun Set"></figure>
+      <div class="menu-item-body">
+        <h4>サンセット<br><span style="font-size:0.9rem;font-weight:300;">Sun Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Pickle (Tsukemono)</li>
+          <li>Naan or Rice</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Dal Curry</option>
+            <option>Mutton Curry</option>
+            <option>Saag Pork Curry</option>
+            <option>Seafood Curry</option>
+            <option>Mixed Vegetable Curry</option>
+            <option>Saag Paneer Curry</option>
+            <option>Butter Paneer Curry</option>
+            <option>Chana Masala Curry</option>
+            <option>Prawn Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥1,590</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">Naan or Rice</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Office Set -->
+    <div class="menu-item">
+      <figure><img src="image/special_set.jpg" alt="Office Set"></figure>
+      <div class="menu-item-body">
+        <h4>オフィスセット<br><span style="font-size:0.9rem;font-weight:300;">Office Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Naan</li>
+          <li>Rice</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Dal Curry</option>
+            <option>Mutton Curry</option>
+            <option>Saag Pork Curry</option>
+            <option>Seafood Curry</option>
+            <option>Mixed Vegetable Curry</option>
+            <option>Saag Paneer Curry</option>
+            <option>Butter Paneer Curry</option>
+            <option>Chana Masala Curry</option>
+            <option>Prawn Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥1,690</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">Naan + Rice</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Garlic Set -->
+    <div class="menu-item">
+      <figure><img src="image/garlic_naan_set.jpg" alt="Garlic Set"></figure>
+      <div class="menu-item-body">
+        <h4>ガーリックセット<br><span style="font-size:0.9rem;font-weight:300;">Garlic Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Garlic Naan</li>
+          <li>Tandoori Chicken</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Dal Curry</option>
+            <option>Mutton Curry</option>
+            <option>Saag Pork Curry</option>
+            <option>Seafood Curry</option>
+            <option>Mixed Vegetable Curry</option>
+            <option>Saag Paneer Curry</option>
+            <option>Butter Paneer Curry</option>
+            <option>Chana Masala Curry</option>
+            <option>Prawn Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥1,890</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">Garlic Naan</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chocolate Naan Set -->
+    <div class="menu-item">
+      <figure><img src="image/chocolate_naan.jpg" alt="Chocolate Naan Set"></figure>
+      <div class="menu-item-body">
+        <h4>チョコレートナンセット<br><span style="font-size:0.9rem;font-weight:300;">Chocolate Naan Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Chicken Tikka</li>
+          <li>Chocolate Naan</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Dal Curry</option>
+            <option>Mutton Curry</option>
+            <option>Seafood Curry</option>
+            <option>Mixed Vegetable Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥1,890</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">Choco Naan</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rose Set -->
+    <div class="menu-item">
+      <figure><img src="image/rose_salad.jpg" alt="Rose Set"></figure>
+      <div class="menu-item-body">
+        <h4>ローズセット<br><span style="font-size:0.9rem;font-weight:300;">Rose Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Pickle (Tsukemono)</li>
+          <li>Rice</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Dal Curry</option>
+            <option>Mutton Curry</option>
+            <option>Saag Pork Curry</option>
+            <option>Seafood Curry</option>
+            <option>Mixed Vegetable Curry</option>
+            <option>Saag Paneer Curry</option>
+            <option>Butter Paneer Curry</option>
+            <option>Chana Masala Curry</option>
+            <option>Prawn Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥2,090</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">Rice</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chili Chicken Set -->
+    <div class="menu-item">
+      <figure><img src="image/chili_items.jpg" alt="Chili Chicken Set"></figure>
+      <div class="menu-item-body">
+        <h4>チリチキン セット<br><span style="font-size:0.9rem;font-weight:300;">Chili Chicken Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Chili Chicken</li>
+          <li>Rice</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Dal Curry</option>
+            <option>Mutton Curry</option>
+            <option>Seafood Curry</option>
+            <option>Mixed Vegetable Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥2,190</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">Chili Chicken</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Chili Prawn Set -->
+    <div class="menu-item">
+      <figure><img src="image/tandoori_prawn.jpg" alt="Chili Prawn Set"></figure>
+      <div class="menu-item-body">
+        <h4>チリブラウン セット<br><span style="font-size:0.9rem;font-weight:300;">Chili Prawn Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Chili Prawn</li>
+          <li>Rice</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Seafood Curry</option>
+            <option>Prawn Curry</option>
+            <option>Mixed Vegetable Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥2,290</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">Chili Prawn</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recommended Set -->
+    <div class="menu-item is-popular">
+      <figure><img src="image/recommended_set.jpg" alt="Recommended Set"></figure>
+      <div class="menu-item-body">
+        <h4>おすすめセット<br><span style="font-size:0.9rem;font-weight:300;">Recommended Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Thick-cut Roast Pork</li>
+          <li>Rice</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Dal Curry</option>
+            <option>Mutton Curry</option>
+            <option>Saag Pork Curry</option>
+            <option>Seafood Curry</option>
+            <option>Mixed Vegetable Curry</option>
+            <option>Saag Paneer Curry</option>
+            <option>Butter Paneer Curry</option>
+            <option>Chana Masala Curry</option>
+            <option>Prawn Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥2,390</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">Roast Pork</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sunrose Set -->
+    <div class="menu-item">
+      <figure><img src="image/sunrose_special.jpg" alt="Sunrose Set Dinner"></figure>
+      <div class="menu-item-body">
+        <h4>サンローズセット<br><span style="font-size:0.9rem;font-weight:300;">Sunrose Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Naan or Rice</li>
+          <li>Tandoori Chicken</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Dal Curry</option>
+            <option>Mutton Curry</option>
+            <option>Saag Pork Curry</option>
+            <option>Seafood Curry</option>
+            <option>Mixed Vegetable Curry</option>
+            <option>Saag Paneer Curry</option>
+            <option>Butter Paneer Curry</option>
+            <option>Chana Masala Curry</option>
+            <option>Prawn Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥2,590</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">Tandoori Chicken</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sunrose Special Set -->
+    <div class="menu-item is-special">
+      <figure><img src="image/cheese_naan_set.jpg" alt="Sunrose Special Set Dinner"></figure>
+      <div class="menu-item-body">
+        <h4>サンローズスペシャル セット<br><span style="font-size:0.9rem;font-weight:300;">Sunrose Special Set</span></h4>
+        <ul class="includes">
+          <li>Mini Salad</li>
+          <li>Cheese Naan or Garlic Naan</li>
+          <li>Tandoori Chicken</li>
+          <li>1 Curry of your choice</li>
+        </ul>
+        <div class="curry-select-wrap">
+          <span class="curry-select-label">Choose Your Curry</span>
+          <select class="curry-select">
+            <option value="">Select Curry</option>
+            <option>Chicken Curry</option>
+            <option>Butter Chicken Curry</option>
+            <option>Chicken Masala Curry</option>
+            <option>Saag Chicken Curry</option>
+            <option>Pork Curry</option>
+            <option>Dal Curry</option>
+            <option>Mutton Curry</option>
+            <option>Saag Pork Curry</option>
+            <option>Seafood Curry</option>
+            <option>Mixed Vegetable Curry</option>
+            <option>Saag Paneer Curry</option>
+            <option>Butter Paneer Curry</option>
+            <option>Chana Masala Curry</option>
+            <option>Prawn Curry</option>
+            <option>Saag Prawn Curry</option>
+          </select>
+        </div>
+        <div class="menu-item-footer">
+          <div><div class="price">¥2,890</div><div class="price-note">Tax included</div></div>
+          <span class="includes-tag">Cheese / Garlic Naan</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /dinner sets grid -->
+
+  <!-- Curry Options Note -->
+  <div class="info-banner">
+    <div class="info-banner-inner">
+      <div class="info-icon">🌶</div>
+      <div class="info-text">
+        <strong>Full Curry Selection Available</strong>
+        <p>Chicken · Butter Chicken · Chicken Masala · Chicken Bharta · Saag Chicken · Chicken Tikka Masala · Chicken Dopiaza · Saag Keema · Mutton · Saag Mutton · Pork · Saag Pork · Mixed Veg · Aloo Baingan · Aloo Gobi · Chana Masala · Saag Paneer · Butter Paneer · Dal · Seafood · Saag Seafood · Prawn · Saag Prawn</p>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /tab dinner-takeout -->
+
+
+<!-- ═══════════════════════════ BACK TO TOP ═══════════════════════════ -->
+<button id="backToTop" title="Back to top">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
+<footer class="footer">
+  <p>© 2024 <a href="index.html">Sunrose Japan</a> &nbsp;·&nbsp; 株式会社BAL BISHNU &nbsp;·&nbsp; All Rights Reserved.</p>
+</footer>
+
+<script>
+  // Explore button — just scrolls down, all panels always visible
+  document.getElementById('exploreBtn').addEventListener('click', () => {
+    document.querySelector('.tab-nav').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  // Back to top
+  const topBtn = document.getElementById("backToTop");
+  window.addEventListener("scroll", () => {
+    topBtn.style.display = window.scrollY > 300 ? "flex" : "none";
+  });
+  topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+</script>
+
+</body>
+</html>

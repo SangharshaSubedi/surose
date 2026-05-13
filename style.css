@@ -619,67 +619,6 @@
         }
  
         .info-card-body { font-size: 13px; color: var(--text-muted); line-height: 1.7; }
- 
-    /* =====================    TRANSLATE ===================== */
-
-        .goog-te-gadget-simple .goog-te-gadget-icon
-        {
-        display: none !important;
-        }
-
-        .goog-te-gadget-simple
-        {
-        background: transparent !important;
-        border: 1px solid rgba(201,168,76,0.4) !important;
-        border-radius: 30px !important;
-        padding: 7px 14px !important;
-        font-size: 12px !important;
-        }
-
-        .goog-te-gadget-simple::before
-        {
-        content: '🌐';
-        margin-right: 6px;
-        }
-
-        .goog-te-gadget-simple .goog-te-menu-value span
-        {
-        color: rgba(255,255,255,0.88) !important;
-        font-weight: 500 !important;
-        letter-spacing: 0.05em !important;
-        }
-
-        .header.scrolled .goog-te-gadget-simple .goog-te-menu-value span
-        {
-        color: var(--text-mid) !important;
-        }
-
-        .goog-te-banner-frame
-        {
-        display: none !important;
-        }
-
-        body
-        {
-        top: 0 !important;
-        }
-
-        .goog-te-gadget-simple .goog-te-menu-value span:nth-child(1)
-        {
-        display: none !important;
-        }
-
-        .goog-te-gadget-simple .goog-te-menu-value span:nth-child(3)
-        {
-        display: none !important;
-        }
-
-        .goog-te-gadget-simple::before
-        {
-        content: '🌐';
-        font-size: 15px;
-        margin-right: 4px;
-        }
 
 
 
@@ -921,6 +860,121 @@
             background: rgba(201,168,76,0.15);
         }
  
+
+        /* ====== LANGUAGE BUTTON ====== */
+        .lang-btn
+        {
+        background: transparent;
+        border: 1px solid rgba(201,168,76,0.4);
+        border-radius: 30px;
+        padding: 7px 16px;
+        font-family: var(--sans);
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        color: rgba(255,255,255,0.88);
+        cursor: pointer;
+        transition: all var(--transition);
+        list-style: none;
+        }
+
+        .lang-btn:hover
+        {
+        background: var(--gold);
+        color: var(--text-dark);
+        border-color: var(--gold);
+        }
+
+        .header.scrolled .lang-btn
+        {
+        color: var(--text-mid);
+        }
+        /* ====== LANGUAGE DROPDOWN ====== */
+        .lang-dropdown
+        {
+        position: relative;
+        list-style: none;
+        }
+
+        .lang-btn
+        {
+        background: transparent;
+        border: 1px solid rgba(201,168,76,0.4);
+        border-radius: 30px;
+        padding: 7px 16px;
+        font-family: var(--sans);
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        color: rgba(255,255,255,0.88);
+        cursor: pointer;
+        transition: all var(--transition);
+        }
+
+        .lang-btn:hover
+        {
+        background: var(--gold);
+        color: var(--text-dark);
+        border-color: var(--gold);
+        }
+
+        .header.scrolled .lang-btn
+        {
+        color: var(--text-mid);
+        }
+
+        .lang-menu
+        {
+        display: none;
+        position: absolute;
+        top: calc(100% + 10px);
+        right: 0;
+        background: rgba(26,18,8,0.97);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(201,168,76,0.25);
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        min-width: 160px;
+        z-index: 9999;
+        box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+        }
+
+        .lang-menu.open
+        {
+        display: block;
+        animation: fadeUp 0.2s ease both;
+        }
+
+        .lang-menu button
+        {
+        display: block;
+        width: 100%;
+        padding: 12px 20px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(201,168,76,0.1);
+        color: rgba(255,255,255,0.75);
+        font-family: var(--sans);
+        font-size: 13px;
+        font-weight: 400;
+        text-align: left;
+        cursor: pointer;
+        transition: all var(--transition);
+        }
+
+        .lang-menu button:last-child
+        {
+        border-bottom: none;
+        }
+
+        .lang-menu button:hover
+        {
+        background: rgba(234,173,6,0.1);
+        color: var(--gold-light);
+        padding-left: 26px;
+        }
+
+
         /* ===================== RESPONSIVE ===================== */
         @media (max-width: 1024px) {
             .menus-grid { grid-template-columns: repeat(2, 1fr); }

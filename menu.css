@@ -7,11 +7,15 @@
 :root {
     --primary-color: #d47917;
     --secondary-color: #ff9d34;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+    --sans: 'DM Sans', sans-serif;
 }
 body {
-    font-family: "Segoe UI", Arial, sans-serif;
+    font-family: var(--sans);
     background: #f4f6f8;
-    color: #333;
+    color: var(--text-dark);
+    font-size: 30px;
+    padding: 0 6rem;
 }
 
 /* MENU HERO */
@@ -114,7 +118,7 @@ body {
 
 .section-title 
 {
-    font-family: 'Praise', cursive;
+    font-family: var(--serif);
     font-size: 50px;
     color: var(--primary-color);
     grid-column: 1 / -1;   /* full width */
@@ -124,7 +128,7 @@ body {
 
 .section-title span 
 {
-    font-family: 'Praise', cursive;
+    font-family: var(--serif);
     color: var(--secondary-color);
 }
 /* about spice level */
@@ -173,7 +177,7 @@ body {
 
 .spice-item small {
     font-size: 13px;
-    color: #555;
+    color: var(--text-dark);
 }
 
 /* end of spice level */
@@ -195,9 +199,9 @@ body {
 
 .menu-nav a {
     text-decoration: none;
-    color: #444;
+    color: var(--text-dark);
     font-weight: 800;
-    font-size: 20px;
+    font-size: 30px;
     padding: 6px 14px;
     border-radius: 20px;
     transition: 0.3s;

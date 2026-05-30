@@ -2,6 +2,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
+  --text-size: 30px; 
   --gold: #eaad06;
   --gold-light: #E8C97A;
   --gold-pale: #FAF3E0;
@@ -9,7 +10,7 @@
   --white: #FFFFFF;
   --off-white: #FDFBF7;
   --cream: #F5EDD6;
-  --text-dark: #1A1208;
+  --text-dark: #111111;
   --text-mid: #5A4A2A;
   --text-muted: #9A8A6A;
   --border: rgba(201, 168, 76, 0.2);
@@ -28,18 +29,10 @@ body {
   font-family: var(--sans);
   background: var(--off-white);
   color: var(--text-dark);
-  font-size: 15px;
+  font-size: 30px;
   line-height: 1.8;
   overflow-x: hidden;
-}
-
-a { text-decoration: none; color: inherit; }
-
-/* ===================== HEADER ===================== */
-.header {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 1000;
+  padding: 0 6rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -259,7 +252,7 @@ a { text-decoration: none; color: inherit; }
 .company-story h2 em { font-style: italic; color: var(--gold); }
 
 .company-story p {
-  font-size: 15px; color: var(--text-mid);
+  font-size: 30px; color: var(--text-mid);
   line-height: 1.9; margin-bottom: 16px;
 }
 
@@ -354,7 +347,7 @@ a { text-decoration: none; color: inherit; }
    PRIVACY PAGE
 ======================== */
 .policy-intro {
-  font-size: 15px; color: var(--text-mid);
+  font-size: 30px; color: var(--text-mid);
   line-height: 1.9; margin-bottom: 48px;
   padding: 28px 32px;
   background: var(--white);
@@ -415,7 +408,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .policy-section p {
-  font-size: 15px; color: var(--text-mid);
+  font-size: 30px; color: var(--text-mid);
   line-height: 1.9;
 }
 

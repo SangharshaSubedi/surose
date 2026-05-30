@@ -9,12 +9,16 @@
 :root {
     --primary-color: #d47917;
     --secondary-color: #ff9d34;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+    --sans: 'DM Sans', sans-serif;
 }
 
 /* BODY */
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--sans);
     background: #f8f8f8;
+    font-size: 30px;
+    padding: 0 6rem;
 }
 
 /* HEADER */
@@ -108,7 +112,7 @@ body {
 .section-desc {
     max-width: 720px;
     margin: 0 auto 40px;
-    color: #555;
+    color: var(--text-dark);
     line-height: 1.8;
     font-size: 17px;
 }

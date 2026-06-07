@@ -520,13 +520,19 @@
   }
   .drink-text p { font-size: 13px; color: var(--text-muted); font-weight: 300; }
 
-  .drink-options, .food-options
-    {
-        font-size: 30px;
+  .drink-options, .food-options {
+        font-size: 16px;
         color: var(--text-muted);
         font-weight: 300;
-        line-height: 1.7;
+        line-height: 1.8;
         gap: 10px;
+    }
+
+    .drink-options strong,
+    .food-options strong {
+        font-size: 16px;
+        color: var(--text-dark);
+        font-weight: 400;
     }
 
   /* ── FOOTER ── */

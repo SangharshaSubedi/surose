@@ -29,10 +29,13 @@ body {
   font-family: var(--sans);
   background: var(--off-white);
   color: var(--text-dark);
-  font-size: 30px;
+  font-size: 18px;
   line-height: 1.8;
   overflow-x: hidden;
-  padding: 0 6rem;
+  padding: 0 24px;
+}
+
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;

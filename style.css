@@ -34,8 +34,8 @@
             font-family: var(--sans);
             background: var(--white);
             color: var(--text-dark);
-            font-size: 30px;
-            line-height: 1.7;
+            font-size: 28px;
+            line-height: 1.6;
             overflow-x: hidden;
             width: 100%;
             padding: 0;
@@ -716,13 +716,13 @@
         .hero-tag 
         {
             display: inline-block;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 500;
-            letter-spacing: 4px;
+            letter-spacing: 3px;
             text-transform: uppercase;
             color: var(--gold-light);
             border: 1px solid rgba(201,168,76,0.5);
-            padding: 8px 22px;
+            padding: 7px 20px;
             border-radius: 30px;
             margin-bottom: 24px;
         }
@@ -730,7 +730,7 @@
         .hero-title 
         {
             font-family: var(--serif);
-            font-size: clamp(48px, 7vw, 88px);
+            font-size: clamp(38px, 6vw, 68px);
             font-weight: 300;
             line-height: 1.1;
             color: var(--white);
@@ -741,31 +741,34 @@
         .hero-title em 
         {
             display: block;
-            font-size: clamp(22px, 3vw, 34px);
+            font-size: clamp(18px, 3vw, 28px);
             font-weight: 300;
-            letter-spacing: 2px;
-            color: rgba(255,255,255,0.75);
+            letter-spacing: 1px;
+            color: rgba(255,255,255,0.85);
             font-style: normal;
             margin-top: 10px;
         }
  
         .hero-subtitle 
         {
-            font-size: 30px;
-            color: rgba(255,255,255,0.65);
-            letter-spacing: 0.5px;
+            font-size: 24px;
+            color: rgba(255,255,255,0.95);
+            letter-spacing: 0.4px;
             margin-bottom: 36px;
+            max-width: 720px;
+            line-height: 1.6;
+            text-shadow: 0 14px 28px rgba(0, 0, 0, 0.28);
         }
  
         .hero-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
  
         .btn-gold 
         {
-            padding: 13px 32px;
+            padding: 12px 28px;
             background: var(--gold);
             color: var(--white);
             font-family: var(--sans);
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 500;
             letter-spacing: 1px;
             border-radius: 30px;
@@ -777,11 +780,11 @@
  
         .btn-outline 
         {
-            padding: 13px 32px;
+            padding: 12px 28px;
             background: transparent;
             color: var(--white);
             font-family: var(--sans);
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 500;
             letter-spacing: 1px;
             border-radius: 30px;
@@ -821,7 +824,7 @@
         .section-label 
         {
             display: block;
-            font-size: 30px;
+            font-size: 26px;
             font-weight: 500;
             letter-spacing: 4px;
             text-transform: uppercase;
@@ -832,7 +835,7 @@
         .section-title 
         {
             font-family: var(--serif);
-            font-size: clamp(32px, 4vw, 52px);
+            font-size: clamp(28px, 4vw, 44px);
             font-weight: 300;
             color: var(--text-dark);
             line-height: 1.15;
@@ -842,7 +845,7 @@
  
         .section-desc 
         {
-            font-size: 18px;
+            font-size: 16px;
             color: var(--text-muted);
             max-width: 560px;
             line-height: 1.8;
@@ -909,9 +912,9 @@
         #menus .menu-card-title {
             background: var(--gold);
             color: var(--white);
-            padding: 22px 24px;
+            padding: 20px 22px;
             font-family: var(--serif);
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 700;
             text-transform: uppercase;
             display: flex;

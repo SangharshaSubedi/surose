@@ -32,7 +32,7 @@
     font-size: var(--text-size);
     line-height: 1.6;
     overflow-x: hidden;
-    padding: 0 6rem;
+    padding: 0rem;
   }
  
   /* ── HERO ── */
@@ -313,10 +313,10 @@
   .menu-container {
     max-width: var(--max);
     margin: 0 auto;
-    padding: 0 40px 100px;
+    padding: 0 16px 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 28px;
+    gap: 24px;
   }
  
   @media (max-width: 900px) { .menu-container { grid-template-columns: repeat(2, 1fr); } }
@@ -412,7 +412,7 @@
   }
  
   .menu-item-body {
-    padding: 22px 24px 26px;
+    padding: 18px 18px 22px;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -576,9 +576,29 @@
   }
  
   @media (max-width: 600px) {
+    body {
+         padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .menu-container {
+        padding: 0;
+        gap: 12px;
+    }
     .section-header { padding: 60px 24px 40px; }
     .spice-note { padding: 0 20px; }
     .spice-note-inner { padding: 24px; }
     .hero-deco::before { width: 320px; height: 320px; }
     .hero-deco::after  { width: 220px; height: 220px; }
+    .menu-container {
+    padding: 0 !important;
+    gap: 12px;
+}
+    .menu-item-body { padding: 14px 14px 18px; }
+    .menu-item-body h2 { font-size: 1.35rem; margin-bottom: 8px; }
+    .menu-item-body .desc { font-size: 1rem; margin-bottom: 14px; line-height: 1.55; }
+    .menu-item-footer { gap: 10px; flex-wrap: wrap; justify-content: space-between; }
+    .price { font-size: 1.15rem; }
+    .includes-tag { font-size: 10px; gap: 4px; }
+    #backToTop { bottom: 24px; right: 24px; }
   }

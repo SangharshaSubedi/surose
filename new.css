@@ -801,6 +801,11 @@ img
 
 @media (max-width: 600px)
 {
+    html body {
+         padding-left: 20px!important;
+        padding-right: 20px!important;
+        font-size: 16px !important;
+    }
   .offers-grid
   {
     grid-template-columns: 1fr;

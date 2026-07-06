@@ -42,6 +42,7 @@ body
   font-size: 30px;
   line-height: 1.7;
   overflow-x: hidden;
+  padding: 0;
 }
 
 a
@@ -131,7 +132,7 @@ img
 
 .hero-eyebrow
 {
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 500;
   letter-spacing: 0.38em;
   text-transform: uppercase;
@@ -688,6 +689,11 @@ img
   .info-banner
   {
     padding: 0 24px;
+  }
+
+  body
+  {
+    padding: 0 !important;
   }
 
   .hero-deco::before

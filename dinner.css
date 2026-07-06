@@ -639,6 +639,10 @@ body {
 }
 
 @media (max-width: 600px) {
+   body {
+         padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
   .menu-grid { grid-template-columns: 1fr; padding: 0 20px 60px; }
   .category-section { padding: 48px 20px 0; }
   .spice-note, .drink-note { padding: 0 20px; }

@@ -2,7 +2,7 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --text-size: 30px; 
+  --text-size: 20px; 
   --gold: #eaad06;
   --gold-light: #E8C97A;
   --gold-pale: #FAF3E0;
@@ -255,7 +255,7 @@ body {
 .company-story h2 em { font-style: italic; color: var(--gold); }
 
 .company-story p {
-  font-size: 30px; color: var(--text-mid);
+  font-size: 18px; color: var(--text-mid);
   line-height: 1.9; margin-bottom: 16px;
 }
 
@@ -477,6 +477,7 @@ body {
 
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 768px) {
+   
   .header { padding: 16px 24px; }
   .page-content { padding: 60px 24px 80px; }
   .company-stats { grid-template-columns: repeat(2, 1fr); }
@@ -485,6 +486,7 @@ body {
   .milestone-banner { padding: 36px 24px; }
   .policy-contact-card { padding: 28px 24px; }
   .nav { display: none; }
+   .body { padding: 0 !important; };
 }
 
 @media (max-width: 480px) {

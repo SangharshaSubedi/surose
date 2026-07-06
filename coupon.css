@@ -29,7 +29,7 @@ body {
   font-family: var(--sans);
   background: var(--off-white);
   color: var(--text-dark);
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1.7;
   overflow-x: hidden;
   padding: 0 6rem;
@@ -398,6 +398,11 @@ a { text-decoration: none; color: inherit; }
 
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 768px) {
+  html body {
+         padding-left: 20px!important;
+        padding-right: 20px!important;
+        font-size: 16px !important;
+    }
   .coupon-section { grid-template-columns: 1fr; padding: 0 24px 80px; }
   .section-header { padding: 60px 24px 40px; }
   .info-banner { padding: 0 24px; }

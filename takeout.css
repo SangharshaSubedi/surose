@@ -452,6 +452,10 @@ img { width: 100%; display: block; }
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 960px) { .menu-grid { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 600px) {
+   body {
+         padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
   .menu-grid { grid-template-columns: 1fr; padding: 0 20px 60px; }
   .category-section { padding: 48px 20px 0; }
   .info-banner { padding: 0 20px; }

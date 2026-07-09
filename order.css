@@ -667,6 +667,7 @@ img
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 1024px)
 {
+  
   .order-grid
   {
     grid-template-columns: repeat(2, 1fr);

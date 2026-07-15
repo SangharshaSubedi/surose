@@ -91,7 +91,7 @@ body {
 .page-hero {
   position: relative;
   padding-top: 80px;
-  min-height: 42vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -340,7 +340,7 @@ body {
 }
 
 .company-value {
-  font-size: 14px; color: var(--text-mid);
+  font-size: 14px; 
   line-height: 1.7; padding: 18px 28px;
   background: var(--white);
   display: flex; align-items: center;
@@ -350,7 +350,7 @@ body {
    PRIVACY PAGE
 ======================== */
 .policy-intro {
-  font-size: 30px; color: var(--text-mid);
+  font-size: 20px; color: var(--text-mid);
   line-height: 1.9; margin-bottom: 48px;
   padding: 28px 32px;
   background: var(--white);
@@ -369,12 +369,12 @@ body {
   display: flex; flex-direction: column; gap: 4px;
 }
 .policy-meta-label {
-  font-size: 10px; font-weight: 500;
+  font-size: 23px; font-weight: 500;
   letter-spacing: 0.15em; text-transform: uppercase;
   color: var(--gold);
 }
 .policy-meta-value {
-  font-size: 14px; color: var(--text-mid); font-weight: 400;
+  font-size: 18px; color: var(--text-mid); font-weight: 400;
 }
 
 .policy-section {
@@ -390,8 +390,8 @@ body {
 
 .policy-section h2 {
   font-family: var(--serif);
-  font-size: 1.4rem; font-weight: 400;
-  color: var(--text-dark); margin-bottom: 14px;
+  font-size: 30px; font-weight: 400; 
+  color: var(--gold); margin-bottom: 14px;
   display: flex; align-items: center; gap: 14px;
 }
 .policy-section h2::after {
@@ -406,12 +406,12 @@ body {
   border: 1px solid var(--border-strong);
   border-radius: 50%;
   font-family: var(--serif);
-  font-size: 0.95rem; color: var(--gold);
+  font-size: 23px; color: var(--gold);
   flex-shrink: 0;
 }
 
 .policy-section p {
-  font-size: 30px; color: var(--text-mid);
+  font-size: 23px; color: var(--text-mid);
   line-height: 1.9;
 }
 
@@ -477,20 +477,27 @@ body {
 
 /* ===================== RESPONSIVE ===================== */
 @media (max-width: 768px) {
-   
+   policy-intro
   .header { padding: 16px 24px; }
-  .page-content { padding: 60px 24px 80px; }
+  .page-content { padding: 60px 20px 80px; }
   .company-stats { grid-template-columns: repeat(2, 1fr); }
   .company-label { min-width: 120px; font-size: 10px; padding: 14px 16px; }
   .company-value { padding: 14px 18px; font-size: 13px; }
-  .milestone-banner { padding: 36px 24px; }
-  .policy-contact-card { padding: 28px 24px; }
+  .milestone-banner { padding: 36px 20px; }
+  .policy-contact-card { padding: 28px 20px; }
   .nav { display: none; }
-   .body { padding: 0 !important; };
+  body { font-size: 16px; padding: 0 !important; }
 }
 
 @media (max-width: 480px) {
+  body { font-size: 14px; padding: 0 !important; }
+  .header { padding: 14px 16px; }
+  .page-content { padding: 40px 16px 60px; }
+  .page-hero-content { padding: 40px 16px; }
   .company-stats { grid-template-columns: repeat(2, 1fr); }
   .company-row { flex-direction: column; }
   .company-label { min-width: unset; border-right: none; border-bottom: 1px solid var(--border); }
+  .milestone-banner { padding: 24px 16px; }
+  .policy-contact-card { padding: 20px 16px; }
+  .policy-meta { gap: 12px; }
 }

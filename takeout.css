@@ -41,7 +41,7 @@ img { width: 100%; display: block; }
 /* ===================== HERO ===================== */
 .menu-hero {
   position: relative;
-  min-height: 85vh;
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;

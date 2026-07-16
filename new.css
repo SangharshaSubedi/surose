@@ -330,14 +330,6 @@ img
   gap: 24px;
 }
 
-.offers-grid .offer-card:last-child
-{
-  grid-column: 1 / -1;
-  max-width: 560px;
-  margin: 0 auto;
-  width: 100%;
-}
-
 /* ===================== OFFER CARD ===================== */
 .offer-card
 {
@@ -847,4 +839,26 @@ img
     width: 220px;
     height: 220px;
   }
+}
+
+/* ===================== IMAGE CARD ===================== */
+.offer-image-card
+{
+  padding: 0;
+  overflow: hidden;
+  background: var(--white);
+}
+
+.offer-image-card .offer-image
+{
+  width: 100%;
+  height: 100%;
+  object-fit: full;
+  display: block;
+  transition: transform var(--transition);
+}
+
+.offer-image-card:hover .offer-image
+{
+  transform: scale(1.04);
 }

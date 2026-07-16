@@ -91,7 +91,7 @@ body {
 .page-hero {
   position: relative;
   padding-top: 80px;
-  min-height: 90vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
